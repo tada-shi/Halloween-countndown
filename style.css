@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mountains of Christmas', cursive;
+    background: #F9B269;
+}
+
+.title{
+    text-align: center;
+    margin-top: 45vh;
+    line-height: 10rem;
+}
+.endPeriod{
+    letter-spacing: 20px;
+    font-size: 5rem;
+}
+.countdown{
+    font-size: 3rem;
+}
+.remove{
+    display: none;
+}
+#days, #hours, #minutes, #seconds{
+    margin: 10px 50px;
+}
+#dy{
+    border-left: 6px solid maroon;
+    height: 0px;
+    position: absolute;
+    margin-left: 12px;
+    top: 0;
+    border-radius: 50%;
+}
+#hr{
+    border-left: 6px solid maroon;
+    height: 0px;
+    position: absolute;
+    margin-left: 36px;
+    top: 0;
+    border-radius: 50%;
+}
+#sec{
+    border-left: 6px solid maroon;
+    height: 0px;
+    position: absolute;
+    margin-left: 48px;
+    top: 0;
+    border-radius: 50%;
+}
+#min{
+    border-left: 6px solid maroon;
+    height: 0px;
+    position: absolute;
+    margin-left: 24px;
+    top: 0;
+    border-radius: 50%;
+}
